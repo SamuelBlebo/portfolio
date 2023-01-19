@@ -151,11 +151,10 @@ body {
 .menu {
   background-color: #808080;
   width: 150px;
-  height: 500px;
-  border-radius: 10px;
+  height: 70vh;
   padding: 30px;
 }
 
-.close {
+.hide {
   display: none;
 }
