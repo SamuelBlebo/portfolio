@@ -13,4 +13,4 @@ function toggleMenu() {
   }
 }
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+document.querySelector(".year").innerHTML = new Date().getFullYear();
