@@ -12,3 +12,5 @@ function toggleMenu() {
     menuBox.style.display = "flex";
   }
 }
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
