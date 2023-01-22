@@ -135,7 +135,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2c2d32;
+  background-color: #2e2e35;
   padding: 50px 120px;
 }
 
@@ -146,8 +146,19 @@ body {
 
 #nav_bar li {
   display: inline;
-  padding-right: 20px;
+  padding: 7px 0px;
+  margin: 10px;
   color: white;
+  font-weight: 1000px;
+}
+
+.nav_selected {
+  border-bottom: 3px solid #dfa03f;
+}
+
+#nav_bar li:hover,
+#navbar_mobile li:hover {
+  border-bottom: 3px solid #dfa03f;
 }
 
 .social_icons {
@@ -156,31 +167,38 @@ body {
   border-left: 1.5px solid #dfa03f;
 }
 
+svg:hover {
+  color: #dfa03f;
+}
+
 .menu-icon {
   width: 35px;
   height: 35px;
   color: #fff;
 }
 
+.menu {
+  background-color: #808080;
+  width: 150px;
+  height: 60vh;
+  padding: 30px;
+}
+
+.navbar_mobile {
+  display: block;
+  padding: 7px 0px;
+  margin: 10px;
+  color: white;
+  font-weight: 1000px;
+}
+
 #mobile {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
-  #mobile {
-    display: block;
-  }
-}
-
-.menu-container {
+.mobile_menu {
   display: flex;
   justify-content: flex-end;
-}
-.menu {
-  background-color: #808080;
-  width: 150px;
-  height: 70vh;
-  padding: 30px;
 }
 
 .hide {
@@ -190,7 +208,35 @@ body {
 .footer {
   text-align: center;
   padding: 30px 0px;
-  background-color: #2c2d32;
+  background-color: #2e2e35;
   color: #fff;
   border-top: 4px solid #dfa03f;
+}
+
+/* media query (Phone) */
+@media only screen and (max-width: 767px) {
+  /* CSS rules for phones here */
+  #mobile {
+    display: block;
+  }
+  .desktop_menu {
+    display: none;
+  }
+  .social_icons {
+    display: none;
+  }
+}
+
+/* media query (Tablet) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #mobile {
+    display: block;
+  }
+
+  .desktop_menu {
+    display: none;
+  }
+  .social_icons {
+    display: none;
+  }
 }

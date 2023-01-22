@@ -15,13 +15,13 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header container">
+    <header class="header">
       <h4>SB</h4>
 
       <div class="nav">
-        <nav>
+        <nav class="desktop_menu">
           <ul id="nav_bar">
-            <li>Home</li>
+            <li class="nav_selected">Home</li>
             <li>About</li>
             <li>Project</li>
             <li>Contact</li>
@@ -83,9 +83,8 @@
             <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
           </svg>
         </div>
-        <div>
+        <div id="mobile">
           <svg
-            id="mobile"
             onclick="toggleMenu()"
             class="menu-icon open"
             xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +101,6 @@
             />
           </svg>
           <svg
-            id="mobile"
             onclick="toggleMenu()"
             class="menu-icon hide"
             xmlns="http://www.w3.org/2000/svg"
@@ -124,17 +122,19 @@
       </div>
     </header>
 
-    <div class="menu-container hide">
+    <div class="mobile_menu hide">
       <div class="menu">
         <div>
           <h6>Menu</h6>
         </div>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-        </ul>
+        <nav class="mobile">
+          <ul class="navbar_mobile">
+            <li class="nav_selected">Home</li>
+            <li>About</li>
+            <li>Project</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
       </div>
     </div>
 

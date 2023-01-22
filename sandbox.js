@@ -1,7 +1,7 @@
 function toggleMenu() {
   var menu = document.querySelector(".open");
   var menuClose = document.querySelector(".hide");
-  var menuBox = document.querySelector(".menu-container");
+  var menuBox = document.querySelector(".mobile_menu");
   if (menu.style.display === "none") {
     menu.style.display = "block";
     menuClose.style.display = "none";
@@ -13,4 +13,4 @@ function toggleMenu() {
   }
 }
 
-document.querySelector(".year").innerHTML = new Date().getFullYear();
+// document.querySelector(".year").innerHTML = new Date().getFullYear();
