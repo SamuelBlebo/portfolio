@@ -128,7 +128,7 @@ table {
 /* start */
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica font", Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -136,7 +136,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #2e2e35;
-  padding: 50px 120px;
+  padding: 50px 80px;
 }
 
 .nav {
@@ -162,7 +162,7 @@ body {
 }
 
 .social_icons {
-  color: #fff;
+  color: #dadada;
   padding: 0px 15px;
   border-left: 1.5px solid #dfa03f;
 }
@@ -174,7 +174,7 @@ svg:hover {
 .menu-icon {
   width: 35px;
   height: 35px;
-  color: #fff;
+  color: #dadada;
 }
 
 .menu {
@@ -215,7 +215,7 @@ svg:hover {
 
 .hero {
   display: flex;
-  padding: 50px 120px 100px 120px;
+  padding: 50px 80px 30px 80px;
   justify-content: space-around;
   background-color: #2e2e35;
   align-items: stretch;
@@ -231,7 +231,7 @@ svg:hover {
 }
 
 .name_contact h1 {
-  color: #fff;
+  color: #dadada;
   font-size: 65px;
   font-weight: bolder;
 }
@@ -293,7 +293,6 @@ h1 .stop {
   justify-content: center;
   height: 400px;
   width: 400px;
-  margin-left: -80px;
   background-color: #2b2b34;
   border-radius: 50%;
 }
@@ -307,19 +306,36 @@ h1 .stop {
 .details {
   margin-top: 50px;
   padding: 10px 80px;
-  letter-spacing: 1px;
 }
 
 .details h2 {
+  letter-spacing: 2px;
   color: #dfa03f;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .details h1 {
-  color: #fff;
-  font-size: 40px;
+  color: #dadada;
+  font-size: 38px;
   font-weight: bolder;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.details p {
+  color: #dadada;
+  line-height: 1.6;
+  margin-top: 20px;
+  letter-spacing: 0.8;
+}
+
+.details a {
+  color: #dfa03f;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
 /* media query (Phone) */
