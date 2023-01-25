@@ -128,7 +128,7 @@ table {
 /* start */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -218,6 +218,11 @@ svg:hover {
   padding: 50px 120px 100px 120px;
   justify-content: space-around;
   background-color: #2e2e35;
+  align-items: stretch;
+}
+
+.hero div {
+  flex: 1;
 }
 
 /* name and contact */
@@ -257,6 +262,9 @@ h1 .stop {
   font-weight: 400;
 }
 
+.socials div:nth-child(2) {
+  margin-left: -160px;
+}
 .socials div:hover {
   color: #dfa03f;
 }
@@ -285,12 +293,33 @@ h1 .stop {
   justify-content: center;
   height: 400px;
   width: 400px;
+  margin-left: -80px;
   background-color: #2b2b34;
   border-radius: 50%;
 }
 .image img {
   height: 500px;
   width: 500px;
+}
+
+/* introduction */
+
+.details {
+  margin-top: 50px;
+  padding: 10px 80px;
+  letter-spacing: 1px;
+}
+
+.details h2 {
+  color: #dfa03f;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.details h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 /* media query (Phone) */
