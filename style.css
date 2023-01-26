@@ -211,7 +211,7 @@ svg:hover {
 
 .hero {
   display: flex;
-  padding: 50px 80px 30px 80px;
+  padding: 50px 80px 55px 80px;
   justify-content: space-around;
   background-color: #2e2e35;
   align-items: stretch;
@@ -304,14 +304,16 @@ h1 .stop {
   padding: 10px 20px 10px 80px;
 }
 
-.details h2 {
+.details h2,
+.heading h2 {
   letter-spacing: 2px;
   color: #dfa03f;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-.details h1 {
+.details h1,
+.heading h1 {
   color: #dadada;
   font-size: 38px;
   font-weight: bolder;
@@ -319,7 +321,8 @@ h1 .stop {
   margin-top: 20px;
 }
 
-.details p {
+.details p,
+.heading p {
   color: #dadada;
   line-height: 1.6;
   margin-top: 20px;
@@ -335,6 +338,25 @@ h1 .stop {
   text-decoration: none;
 }
 
+/* about */
+
+.about {
+  background-color: #34343b;
+  padding: 120px 80px;
+}
+
+.about .heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 250px;
+}
+
+.heading p {
+  text-align: center;
+}
+
+/* footer */
 .footer {
   text-align: center;
   padding: 30px 0px;
