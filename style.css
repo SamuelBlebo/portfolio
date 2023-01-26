@@ -87,6 +87,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -336,6 +337,7 @@ h1 .stop {
   align-items: center;
   font-weight: 700;
   margin-top: 20px;
+  text-decoration: none;
 }
 
 /* media query (Phone) */
