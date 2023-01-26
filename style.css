@@ -132,6 +132,7 @@ body {
   font-family: "Helvetica font", Helvetica, Arial, sans-serif;
 }
 
+/* header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -206,13 +207,7 @@ svg:hover {
   display: none;
 }
 
-.footer {
-  text-align: center;
-  padding: 30px 0px;
-  background-color: #2e2e35;
-  color: #fff;
-  border-top: 4px solid #dfa03f;
-}
+/* Hero */
 
 .hero {
   display: flex;
@@ -306,7 +301,7 @@ h1 .stop {
 
 .details {
   margin-top: 50px;
-  padding: 10px 80px;
+  padding: 10px 20px 10px 80px;
 }
 
 .details h2 {
@@ -338,6 +333,14 @@ h1 .stop {
   font-weight: 700;
   margin-top: 20px;
   text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0px;
+  background-color: #2e2e35;
+  color: #fff;
+  border-top: 4px solid #dfa03f;
 }
 
 /* media query (Phone) */
