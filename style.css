@@ -305,7 +305,7 @@ h1 .stop {
 }
 
 .details h2,
-.heading h2 {
+.info h2 {
   letter-spacing: 2px;
   color: #dfa03f;
   text-transform: uppercase;
@@ -313,7 +313,7 @@ h1 .stop {
 }
 
 .details h1,
-.heading h1 {
+.info h1 {
   color: #dadada;
   font-size: 38px;
   font-weight: bolder;
@@ -322,7 +322,7 @@ h1 .stop {
 }
 
 .details p,
-.heading p {
+.info p {
   color: #dadada;
   line-height: 1.6;
   margin-top: 20px;
@@ -345,14 +345,14 @@ h1 .stop {
   padding: 120px 80px;
 }
 
-.about .heading {
+.about .info {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 250px;
 }
 
-.heading p {
+.info p {
   text-align: center;
 }
 
