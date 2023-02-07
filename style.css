@@ -341,32 +341,22 @@ h1 .stop {
 /* about */
 
 .about {
+  display: flex;
+  flex-direction: row;
   background-color: #34343b;
-  padding: 120px 80px;
+  padding: 120px 150px;
+}
+
+.about .info,
+.about .languages {
+  flex-grow: 1;
+  width: 0;
 }
 
 .about .info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 250px;
 }
 
 .info p {
-  text-align: center;
-}
-
-.boxes {
-  display: flex;
-  justify-content: space-between;
-  margin: 50px 0;
-}
-
-.box {
-  background-color: #2e2e35;
-  height: 300px;
-  width: 270px;
-  margin-right: 10px;
 }
 
 /* footer */
