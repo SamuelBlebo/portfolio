@@ -370,9 +370,9 @@ h1 .stop {
   margin-bottom: 10px;
   border: 2px solid;
   border-radius: 50%;
-  border-image: radial-gradient(circle at top left, #51a2e9, #ff4d5a) 1;
+  border-image: radial-gradient(circle at top left, #ff4d5a, #dfa03f) 1;
   color: #fff;
-  font-size: 12px;
+  font-size: 1px;
 }
 
 .language img {
