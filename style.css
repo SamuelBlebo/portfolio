@@ -353,10 +353,19 @@ h1 .stop {
   width: 0;
 }
 
-.about .info {
+.languages {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
 }
 
-.info p {
+.javascript {
+  grid-column: span 5;
+}
+
+.language img {
+  height: 50px;
+  width: 50px;
 }
 
 /* footer */
