@@ -395,7 +395,7 @@ h1 .stop {
 /* projects */
 .projects {
   background-color: #2e2e35;
-  padding: 120px 200px;
+  padding: 120px 150px;
 }
 
 .project-grid {
@@ -405,7 +405,12 @@ h1 .stop {
   margin-top: 40px;
 }
 
+.projects .info {
+  width: 450px;
+}
+
 .project {
+  margin-top: 20px;
   background-color: #dadada;
   height: 300px;
   width: 300px;
@@ -413,6 +418,15 @@ h1 .stop {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.big {
+  width: 500px;
+  height: 620px;
+}
+
+.project:hover {
+  opacity: 50%;
 }
 
 /* footer */
