@@ -429,6 +429,16 @@ h1 .stop {
   opacity: 50%;
 }
 
+/* contact  */
+
+.contacts {
+  background-color: #34343b;
+  padding: 120px 150px;
+}
+
+.contact-box {
+}
+
 /* footer */
 .footer {
   text-align: center;
