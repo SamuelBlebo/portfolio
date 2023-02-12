@@ -448,6 +448,9 @@ h1 .stop {
   width: 500px;
 }
 
+.contact-grid {
+  margin-top: 50px;
+}
 .contact-grid div {
   display: flex;
   align-items: center;
@@ -459,10 +462,15 @@ h1 .stop {
   align-items: center;
   justify-content: center;
   background-color: #2b2b34;
-  height: 50px;
+  height: 65px;
   width: 300px;
   margin: 10px;
   color: #dfa03f;
+  font-size: 18px;
+}
+
+.contact-box img {
+  margin-right: 15px;
 }
 
 /* footer */
