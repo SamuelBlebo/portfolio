@@ -362,14 +362,23 @@ h1 .stop {
 .about .languages {
   flex-grow: 1;
   width: 0;
+  padding: 0 50px;
 }
 
 .languages {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
+.languages .column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
 .language {
   width: 120px;
   height: inherit;
