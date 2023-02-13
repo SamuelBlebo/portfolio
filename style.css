@@ -129,7 +129,7 @@ table {
 /* start */
 
 body {
-  font-family: "Helvetica font", Helvetica, Arial, sans-serif;
+  font-family: "Prosto One", cursive;
 }
 
 /* header */
@@ -362,7 +362,7 @@ h1 .stop {
 .about .languages {
   flex-grow: 1;
   width: 0;
-  padding: 0 50px;
+  padding: 0;
 }
 
 .languages {
