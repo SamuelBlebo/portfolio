@@ -149,6 +149,10 @@ header.scrolled {
   border-bottom: 2px solid #dfa03f;
 }
 
+.container {
+  background-color: red;
+}
+
 .nav {
   display: flex;
   align-items: center;
