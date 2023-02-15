@@ -335,11 +335,13 @@ h1 .stop {
 }
 
 .details p,
-.info p {
+.info p,
+.project-details p {
   color: #dadada;
   line-height: 1.6;
   margin-top: 20px;
   letter-spacing: 0.8;
+  text-align: justify;
 }
 
 .details a {
@@ -422,11 +424,29 @@ h1 .stop {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 70px;
+}
+.project-details {
+  color: #fff;
+  background-color: #2b2b34;
+  height: 400px;
+  padding: 80px 20px 20px 60px;
+  width: 450px;
+}
+
+.project-details h4 {
+  color: #dfa03f;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.project-details p {
+  margin: 20px 0 20px 0;
 }
 
 .project-img {
   height: 500px;
-  width: 700px;
+  width: 1200px;
 }
 
 .project-img img {
