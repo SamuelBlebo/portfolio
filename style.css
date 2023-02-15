@@ -408,38 +408,31 @@ h1 .stop {
 /* projects */
 .projects {
   background-color: #2e2e35;
-  padding: 120px 150px;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin-top: 40px;
+  padding: 120px 80px;
+  height: 700px;
 }
 
 .projects .info {
   width: 450px;
+  padding: 0 70px;
 }
 
 .project {
-  margin-top: 20px;
-  background-color: #dadada;
-  height: 300px;
-  width: 300px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.big {
-  width: 500px;
-  height: 620px;
+.project-img {
+  height: 500px;
+  width: 700px;
 }
 
-.project:hover {
-  opacity: 50%;
+.project-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 /* contact  */
