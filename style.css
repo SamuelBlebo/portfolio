@@ -409,9 +409,10 @@ h1 .stop {
 
 /* projects */
 .projects {
+  display: block;
   background-color: #2e2e35;
   padding: 120px 80px;
-  height: 700px;
+  overflow: hidden;
 }
 
 .projects .info {
@@ -426,6 +427,11 @@ h1 .stop {
   align-items: center;
   margin-top: 70px;
 }
+
+.project:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
 .project-details {
   color: #fff;
   background-color: #2b2b34;
