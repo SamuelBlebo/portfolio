@@ -304,6 +304,7 @@ h1 .stop {
 
 /* image */
 .image {
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   height: 400px;
@@ -312,8 +313,9 @@ h1 .stop {
   border-radius: 50%;
 }
 .image img {
-  height: 500px;
-  width: 500px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /* introduction */
@@ -340,9 +342,14 @@ h1 .stop {
   margin-top: 20px;
 }
 
+.name_contact p {
+  display: none;
+}
+
 .details p,
 .info p,
-.project-details p {
+.project-details p,
+.name_contact p {
   color: #dadada;
   line-height: 1.6;
   margin-top: 20px;
@@ -537,15 +544,24 @@ h1 .stop {
   .header {
     padding: 20px 40px;
   }
-
-  .details {
-    display: none;
-  }
+  /* hero */
   .hero {
-    flex-direction: column;
+    flex-direction: row;
     padding: 50px;
     margin-top: 0px;
   }
+  .name_contact h1 {
+    font-size: 35px;
+  }
+
+  h1 .samuel {
+    font-size: 18px;
+  }
+
+  /* .name_contact p {
+    display: inline;
+    font-size: 15px;
+  } */
 
   .socials {
     flex-direction: column;
@@ -554,15 +570,25 @@ h1 .stop {
   .socials div {
     margin: 10px;
   }
+  .name_contact button {
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
 
   .image {
-    height: 200px;
-    width: 200px;
+    margin: 60px 0 0 -70px;
+    height: 250px;
+    width: 250px;
     align-items: center;
   }
 
-  .name_contact button {
-    margin-top: 10px;
+  .image img {
+    height: 250px;
+    width: 200px;
+  }
+
+  .details {
+    display: none;
   }
 }
 
@@ -577,5 +603,24 @@ h1 .stop {
   }
   .social_icons {
     display: none;
+  }
+
+  /* hero  */
+
+  .name_contact p {
+    display: inline;
+    font-size: 20px;
+  }
+  .details {
+    display: none;
+  }
+
+  .image {
+    margin-left: 50px;
+  }
+  .image img {
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
   }
 }
