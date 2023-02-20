@@ -377,11 +377,8 @@ h1 .stop {
   padding: 120px 150px;
 }
 
-.about .info,
-.about .languages {
-  flex-grow: 1;
-  width: 0;
-  padding: 0;
+.about .info {
+  padding-right: 70px;
 }
 
 .languages {
@@ -583,12 +580,50 @@ h1 .stop {
   }
 
   .image img {
+    object-fit: cover;
     height: 250px;
     width: 200px;
   }
 
   .details {
     display: none;
+  }
+
+  /* general  */
+  .details p,
+  .info p,
+  .project-details p,
+  .name_contact p {
+    color: #dadada;
+    line-height: 1.6;
+    margin-top: 20px;
+    letter-spacing: 0.8;
+    text-align: justify;
+  }
+
+  /* about  */
+
+  .about {
+    flex-direction: column;
+    padding: 50px 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .info {
+    padding-right: 10px;
+  }
+
+  .languages {
+    margin: 50px;
+  }
+
+  .language {
+    width: 100px;
+  }
+
+  .languages .column {
+    margin: 0 10px;
   }
 }
 
