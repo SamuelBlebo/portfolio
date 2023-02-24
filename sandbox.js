@@ -27,5 +27,29 @@ function toggleMenu() {
     menuBox.style.display = "flex";
   }
 }
+// Smooth scroll to anchor.
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
+
+// Links Active
+const links = document.querySelectorAll(".desktop_menu a");
+
+links.forEach((link) => {
+  link.addEventListener("click", function () {
+    links.forEach((link) => {
+      link.parentElement.classList.remove("active");
+    });
+
+    this.parentElement.classList.add("active");
+  });
+});
 
 // document.querySelector(".year").innerHTML = new Date().getFullYear();

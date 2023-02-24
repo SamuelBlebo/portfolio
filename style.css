@@ -103,6 +103,11 @@ nav,
 section {
   display: block;
 }
+a {
+  all: unset;
+  cursor: pointer;
+}
+
 body {
   line-height: 1;
 }
@@ -172,7 +177,7 @@ header.scrolled {
   font-weight: 520;
 }
 
-.nav_selected {
+.active {
   border-bottom: 3px solid #dfa03f;
 }
 
@@ -187,8 +192,8 @@ header.scrolled {
   border-left: 1.5px solid #dfa03f;
 }
 
-svg:hover {
-  color: #dfa03f;
+.social_icons a svg:hover {
+  stroke: #dfa03f;
 }
 
 .menu-icon {
@@ -238,7 +243,7 @@ svg:hover {
 
 /* Hero */
 
-.hero {
+#hero {
   margin-top: 70px;
   display: flex;
   padding: 50px 80px 55px 80px;
@@ -247,7 +252,7 @@ svg:hover {
   align-items: stretch;
 }
 
-.hero div {
+#hero div {
   flex: 1;
 }
 
@@ -281,7 +286,7 @@ h1 .stop {
   width: 200px;
 }
 
-.socials div {
+.socials div a {
   display: flex;
   align-items: center;
   margin: 40px 0px;
@@ -289,7 +294,7 @@ h1 .stop {
   font-weight: 400;
 }
 
-.socials div:hover {
+.socials div a:hover {
   color: #dfa03f;
 }
 
@@ -374,7 +379,7 @@ h1 .stop {
 
 /* about */
 
-.about {
+#about {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -383,7 +388,7 @@ h1 .stop {
   padding: 120px 120px;
 }
 
-.about .info {
+#about .info {
   padding-right: 40px;
 }
 
@@ -425,14 +430,14 @@ h1 .stop {
 
 /* projects */
 
-.projects {
+#projects {
   display: block;
   background-color: #2e2e35;
   padding: 120px 80px;
   overflow: hidden;
 }
 
-.projects .info {
+#projects .info {
   padding: 0 300px;
   text-align: center;
 }
@@ -480,7 +485,7 @@ h1 .stop {
 
 /* contact  */
 
-.contacts {
+#contacts {
   background-color: #34343b;
   padding: 120px 150px;
   display: flex;
@@ -489,7 +494,7 @@ h1 .stop {
   justify-content: center;
 }
 
-.contacts .info {
+#contacts .info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -549,7 +554,7 @@ h1 .stop {
     padding: 20px 40px;
   }
   /* hero */
-  .hero {
+  #hero {
     flex-direction: row;
     padding: 50px;
     margin-top: 0px;
@@ -629,14 +634,14 @@ h1 .stop {
 
   /* about  */
 
-  .about {
+  #about {
     flex-direction: column;
     padding: 50px 40px;
     justify-content: center;
     align-items: center;
   }
 
-  .about .info {
+  #about .info {
     padding-right: 10px;
     text-align: center;
   }
@@ -655,11 +660,11 @@ h1 .stop {
 
   /* Projects  */
 
-  .projects {
+  #projects {
     padding: 40px 0px;
   }
 
-  .projects .info {
+  #projects .info {
     width: fit-content;
     padding: 30px;
     text-align: center;
@@ -689,7 +694,7 @@ h1 .stop {
   }
 
   /* Contact */
-  .contacts .info {
+  #contacts .info {
     width: 300px--;
   }
 
@@ -732,14 +737,14 @@ h1 .stop {
 
   /* about  */
 
-  .about {
+  #about {
     flex-direction: column;
     padding: 100px 100px;
     justify-content: center;
     align-items: center;
   }
 
-  .about .info {
+  #about .info {
     padding-right: 10px;
     text-align: center;
   }
@@ -758,11 +763,11 @@ h1 .stop {
 
   /* Projects  */
 
-  .projects {
+  #projects {
     padding: 100px 100px;
   }
 
-  .projects .info {
+  #projects .info {
     width: fit-content;
     padding: 30px;
     text-align: center;
