@@ -52,4 +52,20 @@ links.forEach((link) => {
   });
 });
 
+function readMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var linkText = document.getElementById("read-more-link");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    linkText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    linkText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
 // document.querySelector(".year").innerHTML = new Date().getFullYear();

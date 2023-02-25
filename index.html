@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="./style.css" />
 
+    <link rel="icon" type="image/x-icon" href="/public/icons/code.svg" />
     <title>Portfolio</title>
   </head>
   <body>
@@ -174,7 +175,7 @@
           </div>
         </div>
 
-        <button class="contact-me">Contact Me</button>
+        <a href="#contacts"><button class="contact-me">Contact Me</button></a>
       </div>
 
       <div class="image">
@@ -221,28 +222,51 @@
         <h2>About</h2>
         <h1>What I am good at.</h1>
         <p>
+          <span id="introspan"
+            >Welcome to my page! I am Samuel Blebo, and I am a skilled web
+            developer with a passion for creating beautiful and functional
+            websites. With 2+ years of experience in the industry, I have worked
+            on a wide range of projects, from simple brochure websites to
+            complex web applications.</span
+          >
           At the core of my approach to web development is a focus on user
           experience. I believe that a website should not only look great but
           also be easy to use and navigate. To achieve this, I use the latest
           technologies and techniques to build responsive websites that work
-          seamlessly across all devices. As a full-stack developer, I have
-          experience working with a variety of front-end and back-end
-          technologies, including HTML, CSS, JavaScript, jQuery, React, Node.js,
-          MongoDB, and SQL. I also have experience with popular CMS platforms
-          like WordPress and Wix. Whether you're looking to build a new website
-          from scratch or improve an existing one, I am here to help.
+          seamlessly across all devices.
+          <span id="mobile-hide">
+            As a full-stack developer, I have experience working with a variety
+            of front-end and back-end technologies, including HTML, CSS,
+            JavaScript, jQuery, React, Node.js, MongoDB, and SQL. I also have
+            experience with popular CMS platforms like WordPress and Wix.
+            Whether you're looking to build a new website from scratch or
+            improve an existing one, I am here to help.
+          </span>
           <br />
+          <span id="dots">...</span>
+          <span id="more">
+            <span id="mobile-show">
+              As a full-stack developer, I have experience working with a
+              variety of front-end and back-end technologies, including HTML,
+              CSS, JavaScript, jQuery, React, Node.js, MongoDB, and SQL. I also
+              have experience with popular CMS platforms like WordPress and Wix.
+              Whether you're looking to build a new website from scratch or
+              improve an existing one, I am here to help.
+            </span>
+            I am dedicated to delivering high-quality work that meets the needs
+            of my clients and exceeds their expectations. Take a look at my
+            portfolio to see some of the projects I have worked on in the past.
+            If you have any questions or would like to discuss a project, please
+            don't hesitate to get in touch. I would be happy to hear from you
+            and discuss how I can help you achieve your web development goals.
+          </span>
           <br />
-          I am dedicated to delivering high-quality work that meets the needs of
-          my clients and exceeds their expectations. Take a look at my portfolio
-          to see some of the projects I have worked on in the past. If you have
-          any questions or would like to discuss a project, please don't
-          hesitate to get in touch. I would be happy to hear from you and
-          discuss how I can help you achieve your web development goals.
+          <a onclick="readMore()" id="read-more-link">Read more</a>
+
           <br />
           <br />
         </p>
-        <button class="contact-me">Contact Me</button>
+        <a href="#contacts"><button class="contact-me">Contact Me</button></a>
       </div>
       <div class="languages">
         <div class="column column-1">
@@ -389,9 +413,9 @@
         <h2>CONNECT WITH ME</h2>
         <h1>Ways to contact me</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
-          asperiores nesciunt nostrum dolores dolorum, nam accusantium vero
-          omnis minus maxime?
+          I am always happy to hear from potential clients and discuss how I can
+          help with your website and web app needs. Here are a few ways to get
+          in touch with me.
         </p>
       </div>
 
@@ -403,13 +427,16 @@
               samuel.blebo@yahoo.com
             </div>
           </a>
-          <a href="githublink">
+          <a href="tel:+233549390344" target="_blank">
             <div class="contact-box">
               <img src="./public/icons/phone-icon.svg" alt="github icon" />
               +233 549 390 344
             </div>
           </a>
-          <a href="LinkedIn">
+          <a
+            href="https://www.linkedin.com/in/samuel-blebo-1a9a2316a/"
+            target="_blank"
+          >
             <div class="contact-box">
               <img src="./public/icons/linkedIn.svg" alt="linkedIn Icon" />
               LinkedIn
@@ -417,13 +444,13 @@
           </a>
         </div>
         <div>
-          <a href="mailto:samuel.blebo@yahoo.com">
+          <a href="https://twitter.com/samuel_blebo" target="_blank">
             <div class="contact-box">
               <img src="./public/icons/twitter.svg" alt="mail icon" />
               @samuel_blebo
             </div>
           </a>
-          <a href="githublink">
+          <a href="https://github.com/SamuelBlebo" target="_blank">
             <div class="contact-box">
               <img src="./public/icons/github-icon.svg" alt="github icon" />
               SamuelBlebo

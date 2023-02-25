@@ -313,7 +313,6 @@ h1 .stop {
   color: #000;
 }
 
-/* image */
 .image {
   margin: 60px 0px 60px -120px;
   display: flex;
@@ -334,6 +333,10 @@ h1 .stop {
 .details {
   margin-top: 50px;
   padding: 10px 20px 10px 70px;
+}
+
+#mobile-show {
+  display: none;
 }
 
 .details h2,
@@ -390,6 +393,18 @@ h1 .stop {
 
 #about .info {
   padding-right: 40px;
+}
+
+#introspan {
+  display: none;
+}
+
+#more {
+  display: none;
+}
+
+#read-more-link {
+  color: #dfa03f;
 }
 
 .languages {
@@ -576,7 +591,7 @@ h1 .stop {
     flex-direction: column;
   }
 
-  .socials div {
+  .socials div a {
     margin: 10px;
   }
   .name_contact button {
@@ -585,7 +600,7 @@ h1 .stop {
   }
 
   .image {
-    margin: 60px 0 0 -70px;
+    margin: 60px 0 0 -60px;
     height: 250px;
     width: 250px;
     align-items: center;
@@ -632,11 +647,19 @@ h1 .stop {
     text-align: justify;
   }
 
+  #mobile-hide {
+    display: none;
+  }
+
+  #mobile-show {
+    display: block;
+  }
+
   /* about  */
 
   #about {
     flex-direction: column;
-    padding: 50px 40px;
+    padding: 50px 30px;
     justify-content: center;
     align-items: center;
   }
@@ -644,6 +667,10 @@ h1 .stop {
   #about .info {
     padding-right: 10px;
     text-align: center;
+  }
+
+  #introspan {
+    display: block;
   }
 
   .languages {
@@ -695,7 +722,7 @@ h1 .stop {
 
   /* Contact */
   #contacts .info {
-    width: 300px--;
+    width: 300px;
   }
 
   .contact-grid div a {
@@ -747,6 +774,10 @@ h1 .stop {
   #about .info {
     padding-right: 10px;
     text-align: center;
+  }
+
+  #introspan {
+    display: block;
   }
 
   .languages {
