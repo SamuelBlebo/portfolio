@@ -40,7 +40,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 });
 
 // Links Active
-const links = document.querySelectorAll(".desktop_menu a");
+const links = document.querySelectorAll("ul li a");
 
 links.forEach((link) => {
   link.addEventListener("click", function () {

@@ -204,15 +204,15 @@ header.scrolled {
 
 .menu {
   background-color: #808080;
-  width: 150px;
-  height: 60vh;
+  width: 180px;
+  height: 55vh;
   padding: 30px;
 }
 
 .navbar_mobile {
   display: block;
   padding: 7px 0px;
-  margin: 10px;
+  margin: 20px 0px 40px 0px;
   color: white;
   font-weight: 1000px;
 }
@@ -224,15 +224,24 @@ header.scrolled {
 .mobile_menu {
   display: flex;
   justify-content: flex-end;
-  padding-top: 60px;
   background-color: #2b2b34;
+  position: fixed;
+  top: 85px;
+  right: 0;
 }
 
 .menu {
-  padding-top: 80px;
+  padding-top: 50px;
+}
+
+.menu div h6 {
+  color: #dfa03f;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .navbar_mobile li {
+  width: fit-content;
   font-weight: 650;
   margin-top: 20px;
 }
@@ -561,8 +570,12 @@ h1 .stop {
   .desktop_menu {
     display: none;
   }
-  .social_icons {
+  .social_icons_desktop {
     display: none;
+  }
+
+  .social_icons_mobile a {
+    padding-right: 15px;
   }
 
   .header {
