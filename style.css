@@ -186,13 +186,13 @@ header.scrolled {
   border-bottom: 3px solid #dfa03f;
 }
 
-.social_icons {
+.social_icons_desktop {
   color: #dadada;
   padding: 0px 15px;
-  border-left: 1.5px solid #dfa03f;
+  border-left: 2px solid #dfa03f;
 }
 
-.social_icons a svg:hover {
+.social_icons_desktop a svg:hover {
   stroke: #dfa03f;
 }
 
@@ -564,6 +564,8 @@ h1 .stop {
 /* media query (Phone) */
 @media only screen and (max-width: 767px) {
   /* CSS rules for phones here */
+
+  /* header */
   #mobile {
     display: block;
   }
@@ -752,8 +754,13 @@ h1 .stop {
   .desktop_menu {
     display: none;
   }
-  .social_icons {
+  .social_icons_desktop {
     display: none;
+  }
+
+  .menu {
+    width: 250px;
+    height: 65vh;
   }
 
   /* hero  */
